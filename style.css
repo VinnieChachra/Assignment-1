@@ -1,0 +1,262 @@
+/* Reset default margin and padding for the HTML element */
+html {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the body */
+body {
+	background-image: url(./ui50y6.png); /* Background image */
+	font-family: "Space Mono", monospace; /* Font family */
+	font-size: 15px; /* Font size */
+	line-height: 2; /* Line height */
+	color: #fcf9f9; /* Text color */
+	background-repeat: no-repeat; /* Prevent background image from repeating */
+	background-attachment: fixed; /* Fix background image position */
+	background-position: center; /* Center the background image */
+	margin: 0;
+	padding: 0;
+	border: #000000 solid; /* Border color */
+	border-radius: 10px; /* Border radius */
+	border-width: 10px; /* Border width */
+	background-size: cover; /* Make the background image cover the whole screen */
+}
+
+/* Style the header */
+header {
+	display: flex; /* Display flex to arrange header content */
+	justify-content: space-between; /* Space between header content */
+	align-items: center; /* Center align header content vertically */
+	background-color: #3f3c3c; /* Header background color */
+	padding: 20px; /* Header padding */
+}
+
+/* Style the logo image in the header */
+header img {
+	max-width: 80%; /* Adjust the maximum width of the logo image */
+	height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+/* Style the left section of the header */
+.header-left {
+	flex: 1; /* Take up remaining horizontal space */
+	text-align: left; /* Align content to the left */
+}
+
+/* Style the right section of the header */
+.header-right {
+	flex: 1; /* Take up remaining horizontal space */
+	text-align: right; /* Align content to the right */
+}
+
+/* Style the main heading in the header */
+header h1 {
+	font-size: 50px; /* Font size */
+	margin: 10px 0; /* Margin */
+	display: block; /* Display as block element */
+	text-align: center; /* Center align text */
+}
+
+/* Style the subheading in the header */
+header h2 {
+	padding: 30px; /* Padding */
+	text-align: center; /* Center align text */
+	font-size: 30px; /* Font size */
+}
+
+/* Apply hover effect to the logo image in the header */
+.header-left img:hover,
+.header-right img:hover {
+	filter: drop-shadow(16px 16px 20px black); /* Apply drop shadow effect on hover */
+}
+
+/* Style paragraphs */
+p {
+	margin-top: 0; /* Remove top margin */
+	text-align: justify; /* Justify text alignment */
+}
+
+/* Style heading level 3 */
+h3 {
+	font: italic normal 1.4em georgia, sans-serif; /* Font style */
+	font-family: "Trirong", serif; /* Font family */
+	text-align: center; /* Center align text */
+	font-size: 25px; /* Font size */
+	letter-spacing: 1px; /* Letter spacing */
+	margin-bottom: 0; /* Remove bottom margin */
+	color: #87929c; /* Text color */
+}
+
+/* Style links in their default state */
+a:link {
+	font-weight: bold; /* Bold font weight */
+	text-decoration: none; /* Remove underline */
+	color: #ffffff; /* Text color */
+}
+
+/* Style links in their visited state */
+a:visited {
+	font-weight: bold; /* Bold font weight */
+	text-decoration: none; /* Remove underline */
+	color: #D4CDDC; /* Text color */
+}
+
+/* /* Apply styles to links on hover, focus, and active states */
+a:hover,
+a:focus,
+a:active {
+	text-decoration: underline; /* Underline on hover, focus, and active states */
+	color: #9685BA; /* Text color */
+}
+
+/* Style the page wrapper */
+.page-wrapper {
+	padding: 0 200px 0 110px; /* Padding */
+	margin: 0;
+	display: flex; /* Display flex for layout */
+}
+
+/* Style the intro section */
+.intro {
+	min-width: 470px; /* Minimum width */
+	width: 100%; /* Full width */
+}
+
+/* Style the summary paragraphs */
+.summary p {
+	font: italic 1.1em/2.2 georgia; /* Font style */
+	text-align: center; /* Center align text */
+	border-bottom: #ebe9e9 solid; /* Add bottom border */
+}
+
+/* Style the summary section */
+.summary {
+	width: 88.3%; /* Width */
+}
+
+/* Style the preamble section */
+.preamble {
+	width: 85%; /* Width */
+	padding-left: 10px; /* Left padding */
+	margin-bottom: 40px; /* Bottom margin */
+}
+
+/* Style the supporting section */
+.supporting {
+	padding-left: 10px; /* Left padding */
+	margin-bottom: 40px; /* Bottom margin */
+	width: 85%; /* Width */
+}
+
+/* Style the footer */
+footer {
+	text-align: center; /* Center align text */
+}
+
+/* Style links in the footer */
+footer a:link,
+footer a:visited {
+	margin-right: 20px; /* Right margin */
+}
+
+/* Style the sidebar */
+.sidebar {
+	margin-left: 600px; /* Left margin */
+	position: fixed; /* Fixed position */
+	font-size: 30px; /* Font size */
+	top: 0; /* Position from top */
+	right: 0; /* Position from right */
+	height: 99%; /* Height */
+	width: 200px; /* Width */
+	border-left: 2px #ffffff solid; /* Left border */
+	padding-left: 1em; /* Left padding */
+	box-sizing: border-box; /* Include borders and padding in total width/height */
+}
+
+/* Style the sidebar wrapper */
+.sidebar .wrapper {
+	font: 10px verdana, sans-serif; /* Font style */
+	padding: 10px; /* Padding */
+	margin-top: 150px; /* Top margin */
+	width: 130px; /* Width */
+}
+
+/* Style the select heading in the sidebar */
+.sidebar h3.select {
+	margin: 10px 0 5px 0; /* Margin */
+	width: 97px; /* Width */
+	height: 16px; /* Height */
+	text-indent: 100%; /* Hide text */
+	white-space: nowrap; /* Prevent line break */
+	overflow: hidden; /* Hide overflow text */
+}
+
+/* Style the archives heading in the sidebar */
+.sidebar h3.archives {
+	margin: 25px 0 5px 0; /* Margin */
+	width: 57px; /* Width */
+	height: 14px; /* Height */
+	text-indent: 100%; /* Hide text */
+	white-space: nowrap; /* Prevent line break */
+	overflow: hidden; /* Hide overflow text */
+}
+
+/* Style the resources heading in the sidebar */
+.sidebar h3.resources {
+	margin: 25px 0 5px 0; /* Margin */
+	width: 63px; /* Width */
+	height: 10px; /* Height */
+	text-indent: 100%; /* Hide text */
+	white-space: nowrap; /* Prevent line break */
+	overflow: hidden; /* Hide overflow text */
+}
+
+/* Style the sidebar unordered list */
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the sidebar list items */
+.sidebar li {
+	line-height: 1.3em; /* Line height */
+	display: block; /* Display as block element */
+	padding-top: 5px; /* Top padding */
+	margin-bottom: 5px; /* Bottom margin */
+	list-style-type: none; /* Remove list bullet */
+}
+
+/* Style nested list items */
+ul > li {
+	margin-left: 20px; /* Left margin */
+	list-style: none; /* Remove list bullet */
+}
+
+/* Style links in the sidebar */
+.sidebar li a:link {
+	color: #ffffff; /* Text color */
+}
+
+.sidebar li a:visited {
+	color: #ffffff; /* Text color */
+}
+
+/* Apply custom styles to the element with ID "my-elements" */
+#my-elements {
+	color: red; /* Text color */
+	font-size: 20px; /* Font size */
+}
+
+/* Style paragraph immediately following an H2 heading */
+h2 + p {
+	margin-top: 10px; /* Top margin */
+}
+
+/* Apply extra1 class to an absolute positioned element */
+.extra1 {
+	position: absolute; /* Position type */
+	top: 40px; /* Distance from the top */
+	right: 0; /* Distance from the right */
+	width: 148px; /* Width */
+	height: 110px; /* Height */
+}
