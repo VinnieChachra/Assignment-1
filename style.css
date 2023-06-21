@@ -7,25 +7,25 @@ html {
 /* Style the body */
 body {
 	background-image: url(./ui50y6.png); /* Background image */
-	font-family: "Space Mono", monospace; /* Font family */
-	font-size: 15px; /* Font size */
-	line-height: 2; /* Line height */
-	color: #fcf9f9; /* Text color */
+	font-family: "Space Mono", monospace;
+	font-size: 15px; 
+	line-height: 2; 
+	color: #fcf9f9; 
 	background-repeat: no-repeat; /* Prevent background image from repeating */
-	background-attachment: fixed; /* Fix background image position */
-	background-position: center; /* Center the background image */
+	background-attachment: fixed;
+	background-position: center; 
 	margin: 0;
 	padding: 0;
-	border: #000000 solid; /* Border color */
-	border-radius: 10px; /* Border radius */
-	border-width: 10px; /* Border width */
+	border: #000000 solid; 
+	border-radius: 10px;
+	border-width: 10px; 
 	background-size: cover; /* Make the background image cover the whole screen */
 }
 
 /* Style the header */
 header {
-	display: flex; /* Display flex to arrange header content */
-	justify-content: space-between; /* Space between header content */
+	display: flex; 
+	justify-content: space-between; 
 	align-items: center; /* Center align header content vertically */
 	background-color: #3f3c3c; /* Header background color */
 	padding: 20px; /* Header padding */
@@ -33,19 +33,19 @@ header {
 
 /* Style the logo image in the header */
 header img {
-	max-width: 80%; /* Adjust the maximum width of the logo image */
+	max-width: 80%; 
 	height: auto; /* Automatically adjust the height while maintaining aspect ratio */
 }
 
-/* Style the left section of the header */
+/* Style the left section(img) of the header */
 .header-left {
-	flex: 1; /* Take up remaining horizontal space */
+	flex: 1; 
 	text-align: left; /* Align content to the left */
 }
 
-/* Style the right section of the header */
+/* Style the right section(img) of the header */
 .header-right {
-	flex: 1; /* Take up remaining horizontal space */
+	flex: 1; 
 	text-align: right; /* Align content to the right */
 }
 
@@ -59,9 +59,9 @@ header h1 {
 
 /* Style the subheading in the header */
 header h2 {
-	padding: 30px; /* Padding */
-	text-align: center; /* Center align text */
-	font-size: 30px; /* Font size */
+	padding: 30px; 
+	text-align: center;
+	font-size: 30px; 
 }
 
 /* Apply hover effect to the logo image in the header */
@@ -72,33 +72,33 @@ header h2 {
 
 /* Style paragraphs */
 p {
-	margin-top: 0; /* Remove top margin */
+	margin-top: 0; 
 	text-align: justify; /* Justify text alignment */
 }
 
 /* Style heading level 3 */
 h3 {
-	font: italic normal 1.4em georgia, sans-serif; /* Font style */
-	font-family: "Trirong", serif; /* Font family */
-	text-align: center; /* Center align text */
-	font-size: 25px; /* Font size */
-	letter-spacing: 1px; /* Letter spacing */
-	margin-bottom: 0; /* Remove bottom margin */
-	color: #87929c; /* Text color */
+	font: italic normal 1.4em georgia, sans-serif; 
+	font-family: "Trirong", serif; 
+	text-align: center; 
+	font-size: 25px; 
+	letter-spacing: 1px; 
+	margin-bottom: 0;
+	color: #87929c; 
 }
 
 /* Style links in their default state */
 a:link {
-	font-weight: bold; /* Bold font weight */
-	text-decoration: none; /* Remove underline */
-	color: #ffffff; /* Text color */
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #ffffff;
 }
 
 /* Style links in their visited state */
 a:visited {
-	font-weight: bold; /* Bold font weight */
-	text-decoration: none; /* Remove underline */
-	color: #D4CDDC; /* Text color */
+	font-weight: bold;
+	text-decoration: none; 
+	color: #D4CDDC; 
 }
 
 /* /* Apply styles to links on hover, focus, and active states */
@@ -111,104 +111,104 @@ a:active {
 
 /* Style the page wrapper */
 .page-wrapper {
-	padding: 0 200px 0 110px; /* Padding */
+	padding: 0 200px 0 110px; 
 	margin: 0;
-	display: flex; /* Display flex for layout */
+	display: flex; 
 }
 
 /* Style the intro section */
 .intro {
-	min-width: 470px; /* Minimum width */
-	width: 100%; /* Full width */
+	min-width: 470px; 
+	width: 100%; 
 }
 
 /* Style the summary paragraphs */
 .summary p {
-	font: italic 1.1em/2.2 georgia; /* Font style */
-	text-align: center; /* Center align text */
-	border-bottom: #ebe9e9 solid; /* Add bottom border */
+	font: italic 1.1em/2.2 georgia; 
+	text-align: center; 
+	border-bottom: #ebe9e9 solid; 
 }
 
 /* Style the summary section */
 .summary {
-	width: 88.3%; /* Width */
+	width: 88.3%;
 }
 
 /* Style the preamble section */
 .preamble {
-	width: 85%; /* Width */
-	padding-left: 10px; /* Left padding */
-	margin-bottom: 40px; /* Bottom margin */
+	width: 85%;
+	padding-left: 10px; 
+	margin-bottom: 40px; 
 }
 
 /* Style the supporting section */
 .supporting {
-	padding-left: 10px; /* Left padding */
-	margin-bottom: 40px; /* Bottom margin */
-	width: 85%; /* Width */
+	padding-left: 10px; 
+	margin-bottom: 40px; 
+	width: 85%; 
 }
 
 /* Style the footer */
 footer {
-	text-align: center; /* Center align text */
+	text-align: center;
 }
 
 /* Style links in the footer */
 footer a:link,
 footer a:visited {
-	margin-right: 20px; /* Right margin */
+	margin-right: 20px; 
 }
 
 /* Style the sidebar */
 .sidebar {
-	margin-left: 600px; /* Left margin */
-	position: fixed; /* Fixed position */
-	font-size: 30px; /* Font size */
-	top: 0; /* Position from top */
-	right: 0; /* Position from right */
-	height: 99%; /* Height */
-	width: 200px; /* Width */
-	border-left: 2px #ffffff solid; /* Left border */
-	padding-left: 1em; /* Left padding */
-	box-sizing: border-box; /* Include borders and padding in total width/height */
+	margin-left: 600px; 
+	position: fixed; 
+	font-size: 30px;
+	top: 0; 
+	right: 0; 
+	height: 99%; 
+	width: 200px; 
+	border-left: 2px #ffffff solid;
+	padding-left: 1em;
+	box-sizing: border-box; 
 }
 
 /* Style the sidebar wrapper */
 .sidebar .wrapper {
-	font: 10px verdana, sans-serif; /* Font style */
-	padding: 10px; /* Padding */
-	margin-top: 150px; /* Top margin */
-	width: 130px; /* Width */
+	font: 10px verdana, sans-serif; 
+	padding: 10px; 
+	margin-top: 150px;
+	width: 130px; 
 }
 
 /* Style the select heading in the sidebar */
 .sidebar h3.select {
-	margin: 10px 0 5px 0; /* Margin */
-	width: 97px; /* Width */
-	height: 16px; /* Height */
-	text-indent: 100%; /* Hide text */
-	white-space: nowrap; /* Prevent line break */
-	overflow: hidden; /* Hide overflow text */
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px; 
+	text-indent: 100%; 
+	white-space: nowrap; 
+	overflow: hidden; 
 }
 
 /* Style the archives heading in the sidebar */
 .sidebar h3.archives {
-	margin: 25px 0 5px 0; /* Margin */
-	width: 57px; /* Width */
-	height: 14px; /* Height */
-	text-indent: 100%; /* Hide text */
-	white-space: nowrap; /* Prevent line break */
-	overflow: hidden; /* Hide overflow text */
+	margin: 25px 0 5px 0; 
+	width: 57px; 
+	height: 14px; 
+	text-indent: 100%; 
+	white-space: nowrap; 
+	overflow: hidden; 
 }
 
 /* Style the resources heading in the sidebar */
 .sidebar h3.resources {
-	margin: 25px 0 5px 0; /* Margin */
-	width: 63px; /* Width */
-	height: 10px; /* Height */
-	text-indent: 100%; /* Hide text */
-	white-space: nowrap; /* Prevent line break */
-	overflow: hidden; /* Hide overflow text */
+	margin: 25px 0 5px 0;
+	width: 63px; 
+	height: 10px; 
+	text-indent: 100%; 
+	white-space: nowrap; 
+	overflow: hidden; 
 }
 
 /* Style the sidebar unordered list */
@@ -219,44 +219,44 @@ footer a:visited {
 
 /* Style the sidebar list items */
 .sidebar li {
-	line-height: 1.3em; /* Line height */
-	display: block; /* Display as block element */
-	padding-top: 5px; /* Top padding */
-	margin-bottom: 5px; /* Bottom margin */
-	list-style-type: none; /* Remove list bullet */
+	line-height: 1.3em; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px; 
+	list-style-type: none; 
 }
 
 /* Style nested list items */
 ul > li {
-	margin-left: 20px; /* Left margin */
-	list-style: none; /* Remove list bullet */
+	margin-left: 20px; 
+	list-style: none;
 }
 
 /* Style links in the sidebar */
 .sidebar li a:link {
-	color: #ffffff; /* Text color */
+	color: #ffffff;
 }
 
 .sidebar li a:visited {
-	color: #ffffff; /* Text color */
+	color: #ffffff; 
 }
 
 /* Apply custom styles to the element with ID "my-elements" */
 #my-elements {
-	color: red; /* Text color */
-	font-size: 20px; /* Font size */
+	color: red; 
+	font-size: 20px; 
 }
 
 /* Style paragraph immediately following an H2 heading */
 h2 + p {
-	margin-top: 10px; /* Top margin */
+	margin-top: 10px; 
 }
 
 /* Apply extra1 class to an absolute positioned element */
 .extra1 {
-	position: absolute; /* Position type */
-	top: 40px; /* Distance from the top */
-	right: 0; /* Distance from the right */
-	width: 148px; /* Width */
-	height: 110px; /* Height */
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px; 
 }
